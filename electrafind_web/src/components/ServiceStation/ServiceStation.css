@@ -12,16 +12,19 @@
 }
 
 .form-container {
-  margin-top: 30px;
   width: 30%;
+  max-height: 80vh;
   background: transparent;
   backdrop-filter: blur(20px);
   box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
   color: #fff;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
   text-align: center;
+  overflow: hidden;
   border: red 1px solid;
-  padding: 25px;
+  padding: 20px;
   border-radius: 20px;
 }
   
@@ -30,15 +33,17 @@
   text-align: center;
   color: #fff;
   font-weight: 500;
+  margin-bottom: 10px;
   border: red 1px solid;
 }
 
 .form-container .input-box{
-  position: relative;
+  /* position: relative; */
   width: 100%;
-  height: 50px;
-  margin: 30px auto;
+  height: 40px;
+  margin: 10px auto;
   border: red 1px solid;
+  display: flex;
   align-items: center;
 }
 .form-container .error-message {
@@ -55,6 +60,8 @@
   color: #fff;
   width: 100%;
   height: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
   background-color: transparent;
   outline: none;
   border: 1px rgba(255, 255, 255, 0.2) solid;
