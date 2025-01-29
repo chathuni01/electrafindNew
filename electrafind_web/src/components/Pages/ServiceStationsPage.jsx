@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../Navbar/Navbar'
 import ServiceStation from '../ServiceStation/ServiceStation'
-import ServiceMap from '../ServiceMap/ServiceMap'
+// import ServiceMap from '../ServiceMap/ServiceMap'
 import '../../index.css'
 
 const ServiceStationsPage = () => {
@@ -9,7 +9,7 @@ const ServiceStationsPage = () => {
     <div>
         <Navbar/>
         <ServiceStation />
-        <ServiceMap/>
+        {/* <ServiceMap/> */}
     </div>
   )
 }
